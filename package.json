@@ -1,0 +1,16 @@
+{
+  "name": "tddfibonacci",
+  "version": "1.0.0",
+  "description": "tdd practice with the fibonacci problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "sinon": "^9.0.0"
+  }
+}
