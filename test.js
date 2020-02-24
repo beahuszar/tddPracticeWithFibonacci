@@ -17,7 +17,6 @@ describe('tests', () => {
   });
 
   it('should have input', () => {
-    console.log(fibonacci());
     fibonacci().to.throw('Input is not defined');
     fibonacci(null).to.throw('Input should not be null');
   });
