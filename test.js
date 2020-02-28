@@ -17,7 +17,7 @@ describe('tests', () => {
   });
 
   it('should have input', () => {
-    fibonacci().to.throw('Input is not defined');
-    fibonacci(null).to.throw('Input should not be null');
+    expect(() => fibonacci()).to.throw(Error, 'Input is not defined');
+    expect(() => fibonacci(null)).to.throw(Error, 'Input should not be null');
   });
 });
