@@ -20,4 +20,11 @@ describe('tests', () => {
     expect(() => fibonacci()).to.throw(Error, 'Input is not defined');
     expect(() => fibonacci(null)).to.throw(Error, 'Input should not be null');
   });
+
+  it('should accept a positive number', () => {
+    expect(() => fibonacci(-5)).to.throw(
+      Error,
+      'Input can be a positive whole number'
+    );
+  });
 });
