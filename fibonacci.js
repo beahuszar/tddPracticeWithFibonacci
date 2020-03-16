@@ -4,6 +4,9 @@ function getFibonacciByIndex(index) {
     } else if (index === null) {
         throw new Error('Input should not be null');
     }
+    if (index < 0) {
+        throw new Error('Input can be a positive whole numbers')
+    }
     return 0;
 }
 
