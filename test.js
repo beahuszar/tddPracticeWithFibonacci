@@ -27,4 +27,8 @@ describe('tests', () => {
       'Input can be a positive whole number'
     );
   });
+  
+  it('The first element should equal to 1', () => {
+    assert.equal(fibonacci(1), 1);
+  });
 });
